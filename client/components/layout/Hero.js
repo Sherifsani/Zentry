@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section className="relative flex flex-col items-center justify-center min-h-screen bg-black overflow-hidden">
+    <section className="relative flex flex-col items-center justify-center min-h-screen overflow-hidden" style={{ backgroundColor: '#0b1628' }}>
 
       {/* ── DOT GRID ─────────────────────────────────────────────── */}
       <div
@@ -21,7 +21,7 @@ export default function Hero() {
         className="absolute inset-0"
         style={{
           background:
-            'radial-gradient(ellipse 100% 80% at 50% 50%, transparent 30%, rgba(0,0,0,0.75) 70%, #000 100%)',
+            'radial-gradient(ellipse 100% 80% at 50% 50%, transparent 30%, rgba(11,22,40,0.8) 70%, #0b1628 100%)',
         }}
       />
 
@@ -32,7 +32,7 @@ export default function Hero() {
         className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-96 pointer-events-none"
         style={{
           background:
-            'radial-gradient(ellipse 90% 100% at 50% 0%, rgba(59,130,246,0.13) 0%, transparent 70%)',
+            'radial-gradient(ellipse 90% 100% at 50% 0%, rgba(59,130,246,0.2) 0%, transparent 70%)',
         }}
       />
 
